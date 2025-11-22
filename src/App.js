@@ -43,7 +43,7 @@ function App() {
             }
           },
           opacity: {
-            value: 0.4,
+            value: 0.4,  // Adjusted from reference 0.5 for better visibility
             random: false,
             anim: {
               enable: false,
@@ -84,7 +84,7 @@ function App() {
           }
         },
         interactivity: {
-          detect_on: 'canvas',
+          detect_on: 'window',
           events: {
             onhover: {
               enable: true,
@@ -123,12 +123,19 @@ function App() {
         },
         retina_detect: true
       });
+
+      // Ensure canvas can receive mouse events even with negative z-index
+      const canvas = particlesRef.current?.querySelector('canvas');
+      if (canvas) {
+        canvas.style.pointerEvents = 'auto';
+        canvas.style.zIndex = '1';  // Bring canvas to front within container
+      }
     }
   }, []);
 
   return (
     <div className="App">
-      <div ref={particlesRef} id="particles-js" className="position-fixed top-0 start-0 w-100 h-100" style={{ zIndex: -1 }}></div>
+      <div ref={particlesRef} id="particles-js" className="position-fixed top-0 start-0 w-100 h-100" style={{ zIndex: -1, pointerEvents: 'auto' }}></div>
       <Header />
       <Overview />
       <About className="mb-5" />
