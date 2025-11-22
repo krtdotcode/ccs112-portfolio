@@ -85,7 +85,8 @@ const Contacts = () => {
                   <a href="#overview" className="text-white text-decoration-none opacity-75 me-3 small" style={{ transition: 'color 0.3s ease' }} onMouseEnter={(e) => e.target.style.color = '#00d4aa'} onMouseLeave={(e) => e.target.style.color = 'inherit'}>Overview</a>
                   <a href="#about" className="text-white text-decoration-none opacity-75 me-3 small" style={{ transition: 'color 0.3s ease' }} onMouseEnter={(e) => e.target.style.color = '#00d4aa'} onMouseLeave={(e) => e.target.style.color = 'inherit'}>About</a>
                   <a href="#skills" className="text-white text-decoration-none opacity-75 me-3 small" style={{ transition: 'color 0.3s ease' }} onMouseEnter={(e) => e.target.style.color = '#00d4aa'} onMouseLeave={(e) => e.target.style.color = 'inherit'}>Skills</a>
-                  <a href="#projects" className="text-white text-decoration-none opacity-75 small" style={{ transition: 'color 0.3s ease' }} onMouseEnter={(e) => e.target.style.color = '#00d4aa'} onMouseLeave={(e) => e.target.style.color = 'inherit'}>Projects</a>
+                  <a href="#projects" className="text-white text-decoration-none opacity-75 me-3 small" style={{ transition: 'color 0.3s ease' }} onMouseEnter={(e) => e.target.style.color = '#00d4aa'} onMouseLeave={(e) => e.target.style.color = 'inherit'}>Projects</a>
+                  <a href="#contact" className="text-white text-decoration-none opacity-75 small" style={{ transition: 'color 0.3s ease' }} onMouseEnter={(e) => e.target.style.color = '#00d4aa'} onMouseLeave={(e) => e.target.style.color = 'inherit'}>Contact</a>
                 </div>
               </div>
             </div>

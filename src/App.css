@@ -17,6 +17,12 @@ body {
   color: #00d4aa !important; /* green accent */
 }
 
+/* Header backdrop blur effect */
+.navbar {
+  backdrop-filter: blur(4px);
+  background: rgba(26, 26, 26, 0.7) !important;
+}
+
 .navbar-dark .nav-link {
   color: #ffffff !important;
   transition: color 0.3s ease;
