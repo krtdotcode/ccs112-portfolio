@@ -10,6 +10,20 @@ const Projects = () => {
       repoLink: 'https://github.com/krtdotcode/tee-luxe-frontend'
     },
     {
+      title: 'Dangal Connect',
+      tech: ['TypeScript', 'Angular', 'Firebase'],
+      description: 'Dangal Connect is a platform designed to connect University of Cabuyao students, specifically the Dangal ng Bayan community, across different academic departments. It fosters meaningful student interactions through preference-based matching and real-time anonymous chat, enabling participants to share study tips, discuss campus life, and build connections that extend beyond their immediate academic circles.',
+      liveLink: 'https://dangal-connect.web.app',
+      repoLink: 'https://github.com/krtdotcode/dangal-connect'
+    },
+    {
+      title: 'AI Weather Predictor',
+      tech: ['Python', 'Flask', 'NumPy', 'Pandas', 'Scikit-learn', 'Angular', 'TypeScript', 'Android', 'PWA'],
+      description: 'An intelligent weather prediction system utilizing Random Forest regression to analyze historical weather data and generate accurate temperature forecasts. Built with Python backend integration, it supports multiple platforms including web PWA and Android app, delivering reliable meteorological insights for informed decision-making.',
+      liveLink: 'https://drive.google.com/uc?export=download&id=1llw5lWPq2EBVP0RJ9gvyLjnJOkD3gkCd',
+      repoLink: 'https://github.com/krtdotcode/ai-weather-predictor-test'
+    },
+    {
       title: 'TaskFlow',
       tech: ['React', 'JavaScript', 'Bootstrap', 'Docker'],
       description: 'A versatile task management application that enables users to create, read, update, and delete tasks seamlessly. Built with React and Bootstrap for a responsive frontend, and containerized with Docker for easy deployment, it provides an intuitive platform for organizing daily tasks, setting priorities, and tracking progress to enhance productivity.',
@@ -22,20 +36,6 @@ const Projects = () => {
       description: 'An advanced platform designed to foster mentorship relationships in the Education Technology sector by connecting mentors and mentees through an intelligent matching system. It offers seamless communication tools, personalized dashboards, and comprehensive tracking features to support educational growth and collaborative learning environments.',
       liveLink: '#',
       repoLink: 'https://github.com/krtdotcode/edtech'
-    },
-    {
-      title: 'AI Weather Predictor',
-      tech: ['Python', 'Flask', 'NumPy', 'Pandas', 'Scikit-learn', 'Angular', 'TypeScript', 'Android', 'PWA'],
-      description: 'An intelligent weather prediction system utilizing Random Forest regression to analyze historical weather data and generate accurate temperature forecasts. Built with Python backend integration, it supports multiple platforms including web PWA and Android app, delivering reliable meteorological insights for informed decision-making.',
-      liveLink: 'https://drive.google.com/uc?export=download&id=1llw5lWPq2EBVP0RJ9gvyLjnJOkD3gkCd',
-      repoLink: 'https://github.com/krtdotcode/ai-weather-predictor-test'
-    },
-    {
-      title: 'Dangal Connect',
-      tech: ['TypeScript', 'Angular', 'Firebase'],
-      description: 'Dangal Connect is a platform designed to connect University of Cabuyao students, specifically the Dangal ng Bayan community, across different academic departments. It fosters meaningful student interactions through preference-based matching and real-time anonymous chat, enabling participants to share study tips, discuss campus life, and build connections that extend beyond their immediate academic circles.',
-      liveLink: 'https://dangal-connect.web.app',
-      repoLink: 'https://github.com/krtdotcode/dangal-connect'
     },
     {
       title: 'Library Management System',
