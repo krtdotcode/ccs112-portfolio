@@ -37,3 +37,7 @@ body {
   background-color: #00d4aa;
   border-color: #00d4aa;
 }
+
+.btn {
+  border-radius: 0 !important;
+}

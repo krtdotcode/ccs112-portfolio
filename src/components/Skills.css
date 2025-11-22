@@ -1,0 +1,35 @@
+/* Skills Styles */
+.skill-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
+  border-radius: 0;
+}
+
+.skill-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 1/rgba(0, 212, 170, 0.3);
+}
+
+.skill-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.skill-icon:hover {
+  transform: scale(1.2);
+}
+
+.skill-item p {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .skill-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
