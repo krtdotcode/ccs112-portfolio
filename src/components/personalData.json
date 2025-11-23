@@ -1,0 +1,83 @@
+{
+  "skills": {
+    "keywords": ["skills", "technologies", "languages", "frameworks", "tools", "expertise", "proficient"],
+    "responses": [
+      "Kurt excels in various technologies! His tech stack includes: Programming Languages - Python, Java, HTML, CSS, JavaScript; Data Science & ML - NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch; Web Development - React, Angular, TypeScript, Node.js, Laravel, Bootstrap, Tailwind; Other Tools - Git, GitHub, Firebase. What's your favorite tech here?",
+      "Kurt's skills span across full-stack development and AI/ML. He's passionate about Python for its versatility in data science and web apps, and loves building modern UIs with React and Angular. His journey includes mastering machine learning with TensorFlow and creating seamless experiences with Firebase.",
+      "As a Computer Science student, Kurt has built a strong foundation in multiple areas. His expertise shines in creating intelligent systems with ML libraries and crafting responsive web applications. He's always excited to learn new tools and apply them to real-world problems.",
+      "Kurt's technical repertoire is impressive! From low-level programming in Java to high-level web development with modern JS frameworks, he enjoys the challenges of software engineering. His ML projects with Scikit-learn and predictive models showcase his analytical mindset."
+    ]
+  },
+  "projects": {
+    "keywords": ["projects", "work", "portfolio", "develop", "build", "recent"],
+    "responses": [
+      "Kurt has some amazing projects under his belt! Check out TeeLuxe - a full-fledged e-commerce platform using React and Laravel; Dangal Connect - a university matchmaking app with Angular and Firebase; AI Weather Predictor - ML-powered forecasting; TaskFlow - a productivity app with Docker; EdTech - mentorship platform; and Library Management System - a complete CRUD web app. Which one sounds most interesting to you?",
+      "Kurt's portfolio demonstrates his diverse capabilities through innovative solutions. From e-commerce sites handling complex state management to AI-driven weather apps processing real data, each project reflects his commitment to learning and problem-solving. He's particularly proud of how each showcases different aspects of modern development practices.",
+      "Kurt actively applies his skills through hands-on development. His projects range from containerized task managers to PWA weather predictors, showing expertise in both frontend UIs and backend logic. Each one represents hours of experimentation, debugging, and iteration to deliver functional, user-friendly applications.",
+      "The projects in Kurt's portfolio tell a story of continuous growth. Starting from basic CRUD systems, he's evolved to create sophisticated platforms leveraging cloud services, ML algorithms, and responsive design. It's been an incredible journey of transforming ideas into digital realities."
+    ]
+  },
+  "experience": {
+    "keywords": ["experience", "background", "education", "student", "study"],
+    "responses": [
+      "Kurt Joshua Cayaga is a passionate Computer Science student at University of Cabuyao, Philippines. Born on August 16, 2004, he's ambitious about becoming a Software Engineer and has a keen interest in AI/ML. Outside academics, he's involved in tech communities as Campus DEVCON officer for DEVCON Laguna 2025-2026 and serves in the R&D Committee of ACSS-UC.",
+      "Currently pursuing Computer Science at University of Cabuyao, Kurt brings enthusiasm for technology to everything he does. His academic journey has included competing in programming challenges, where he became a semifinalist in the National Programming Challenge by CodeChum. This competitive experience has sharpened his problem-solving abilities.",
+      "Kurt's background combines formal education with practical leadership. As a student leader in tech communities across the Philippines, he connects classroom learning with real-world technology landscapes. His involvement in various tech events shows his commitment to both personal growth and community building.",
+      "At 20 years old, Kurt is building his foundation in computer science while exploring the vast possibilities of technology. His hands-on approach through projects and competitions has taught him that the best learning happens when you're passionate about solving problems that matter."
+    ]
+  },
+  "contact": {
+    "keywords": ["contact", "social", "facebook", "instagram", "github", "linkedin", "reach", "email"],
+    "responses": [
+      "Great connecting! Find Kurt on: Facebook - @kjpc.16; Instagram - @krt.code; GitHub - @krtdotcode; LinkedIn - kurtjoshuacayaga. Whether for collaborations, opportunities, or just to chat about tech, Kurt is always open to new connections.",
+      "Kurt loves meeting fellow tech enthusiasts! Reach out on Instagram @krt.code for casual convos, or LinkedIn kurtjoshuacayaga for professional discussions. His GitHub @krtdotcode showcases his coding journey, and he's active in various communities.",
+      "Ready to connect with Kurt? Here's how: Instagram: @krt.code (his go-to for tech memes and updates); LinkedIn: kurtjoshuacayaga (perfect for career and networking talks); GitHub: @krtdotcode (check out his latest commits!); Facebook: @kjpc.16 (the classic social hangout). DM anytime!",
+      "Kurt believes in the power of connections in tech. Whether you're interested in collaboration or just want to share knowledge, he's reachable across multiple platforms. His online presence reflects his interests from coding projects to community involvement."
+    ]
+  },
+  "leadership": {
+    "keywords": ["leadership", "officer", "devcon", "acss", "community", "involve", "lcs"],
+    "responses": [
+      "Kurt takes his leadership roles in tech communities seriously! He serves as Campus DEVCON officer for DEVCON Laguna for 2025-2026 and is a member of the R&D Committee in ACSS-UC. He actively participates in tech events across the Philippines, fostering innovation and collaboration.",
+      "As a community builder, Kurt contributes to the tech ecosystem beyond individual development. His positions in DEVCON Laguna and ACSS-UC allow him to organize events, mentor newcomers, and create opportunities for fellow tech enthusiasts. It's about giving back to a community that has given him so much.",
+      "Kurt's involvement in tech communities reflects his belief in collective growth. Whether chairsitting meetings or planning hackathons, he enjoys creating environments where others can thrive. These experiences have taught him the importance of communication, organization, and empathy in tech leadership.",
+      "Being part of organizations like DEVCON Laguna and ACSS-UC keeps Kurt connected to broader tech discussions. Through these roles, he helps bridge local communities with national initiatives, ensuring everyone has access to learning opportunities and networking events."
+    ]
+  },
+  "favorite": {
+    "keywords": ["favorite", "prefer", "like", "best", "love"],
+    "responses": [
+      "Python holds a special place in Kurt's heart! He absolutely loves its clean syntax, vast ecosystem, and versatility for everything from web development to machine learning. It's like a Swiss army knife in programming languages.",
+      "If Kurt had to pick one favorite, he'd go with Python every time. That simplicity when writing complex algorithms? Magical. Plus, the libraries available for data science and AI make it perfect for his interests.",
+      "Kurt's relationship with Python is more like a love story than a preference. The immediate productivity from quick scripts to advanced ML models keeps him coming back. What about you - do you have a programming crush?",
+      "When it comes to favorite languages, Python wins Kurt's vote! Its readability makes collaboration easier, and the support for both object-oriented and functional programming gives him creative freedom. There's something special about writing code that feels almost like writing English."
+    ]
+  },
+  "location": {
+    "keywords": ["location", "live", "based", "address", "city", "residency"],
+    "responses": [
+      "Kurt calls Cabuyao, Laguna in the Philippines home! It's where he studies Computer Science at University of Cabuyao and gets inspired by the vibrant local tech scene. Philippines has amazing tech communities - ever visited Southeast Asia?",
+      "Located in Cabuyao, Laguna, Philippines, Kurt enjoys the perfect blend of university life and urban access. The proximity to tech hubs in Metro Manila makes it easy to attend events, while the local community provides a great support network.",
+      "Cabuyao, Laguna is Kurt's base in the Philippines. As a student at University of Cabuyao, he appreciates being part of a growing educational community. The location offers convenience for both studies and connecting with tech events in nearby cities.",
+      "Philippines - specifically Cabuyao, Laguna - is where Kurt resides and studies. This location has shaped his perspective on inclusive tech education and community-driven innovation. The country's growing startup ecosystem keeps things exciting!"
+    ]
+  },
+  "birthday": {
+    "keywords": ["birthday", "born", "age", "birthdate"],
+    "responses": [
+      "Kurt celebrated his latest birthday on August 16, making him 20 years young this year! Each birthday marks another year of growth in tech and personal development. What about you - when's your tech journey anniversary?",
+      "Born on August 16, 2004, Kurt is currently navigating his 20th year of life with enthusiasm. These early adult years have been filled with coding challenges, tech competitions, and discovering his passion for AI and machine learning.",
+      "August 16 is Kurt's special day! As he turns 20, he's reflecting on how far he's come from a curious student to someone building real applications. Birthdays remind him to celebrate progress and stay excited about what's next.",
+      "Kurt was born on August 16, 2004, which makes him 20 years old. These years have been packed with learning experiences, from first programming lessons to leading tech community initiatives. Every age brings new opportunities and challenges."
+    ]
+  },
+  "general": {
+    "keywords": ["default", "general"],
+    "responses": [
+      "Hi there! I'm krt.ai, Kurt's virtual assistant. I can tell you about his skills, projects, background, leadership roles, or how to contact him. What would you like to know about Kurt?",
+      "Hello! I'm here to help you learn more about Kurt - his tech expertise, the cool projects he's built, his education and community involvement, or ways to connect. Feel free to ask anything!",
+      "Welcome to Kurt's digital profile! As his AI assistant, I have insights into his programming journey, innovative projects, education, and leadership in tech communities. What interests you most?",
+      "Nice to meet you! Kurt is a talented Computer Science student passionate about AI and full-stack development. I can share details about his skills, past projects, academic background, community leadership, or contact information. What's on your mind?"
+    ]
+  }
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './Chatbot.css'; // For custom styles
+import './Chatbot.css';
+import { getChatbotResponse, delay } from './chatbotUtils';
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([
@@ -7,31 +8,16 @@ const Chatbot = () => {
   ]);
   const [input, setInput] = useState('');
 
-  const getResponse = async (message) => {
-    try {
-      const response = await fetch('http://localhost:5000/chat', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ query: message }),
-      });
-      const data = await response.json();
-      return data.response;
-    } catch (error) {
-      console.error('Error fetching response:', error);
-      return "Sorry, unable to connect to Kurt's AI assistant at the moment. Please try again later.";
-    }
-  };
-
   const sendMessage = async () => {
     if (!input.trim()) return;
     const userMessage = input;
     setMessages(prev => [...prev, { text: userMessage, sender: 'user' }]);
     setInput('');
-    // Thinking indicator
+
     setMessages(prev => [...prev, { text: 'Thinking...', sender: 'bot' }]);
-    const response = await getResponse(userMessage);
+
+    await delay(1000 + Math.random() * 1000);
+    const response = getChatbotResponse(userMessage);
     setMessages(prev => {
       const newMessages = [...prev];
       newMessages[newMessages.length - 1] = { text: response, sender: 'bot' };
