@@ -49,7 +49,8 @@ const Contacts = () => {
                       rel="noopener noreferrer"
                       className="d-flex flex-column align-items-center text-white text-decoration-none p-4 rounded"
                       style={{
-                        backgroundColor: '#252525',
+                        backdropFilter: 'blur(5px)',
+                        background: 'rgba(37, 37, 37, 0.8)',
                         transition: 'all 0.3s ease',
                         border: '1px solid #333'
                       }}

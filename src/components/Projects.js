@@ -58,7 +58,7 @@ const Projects = () => {
         <div className="row g-4">
           {projects.map((project, index) => (
             <div className="col-lg-6 col-xl-4" key={index}>
-              <div className="card h-100 border-0" style={{ backgroundColor: '#252525', borderRadius: '8px' }}>
+              <div className="card h-100 border-0" style={{ backdropFilter: 'blur(2px)', background: 'rgba(26, 26, 26, 0.1)', borderRadius: '0' }}>
                 <div className="card-body p-4">
                   <h5 className="card-title text-white fw-bold mb-3">{project.title}</h5>
                   <div className="mb-3">
